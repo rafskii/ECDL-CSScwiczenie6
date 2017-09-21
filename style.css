@@ -1,0 +1,41 @@
+
+p {
+	margin-top: 20mm;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	margin-right: 30px;}
+
+/* margin: top right bottom left - skracamy kod */
+
+
+p.margin {
+	background-color: red;
+	margin: 20px 10px 20px 10px;
+	padding-top: 10mm;
+	padding-bottom: 10mm;
+	padding-left: 10mm;
+	padding-right:10mm;}
+
+p.ramka {
+	border-top-style: none;
+	border-bottom-style: dashed;
+	border-left-style: solid;
+	border-right-style: solid; /* inne style double groove ridge inset outset */
+	border-top-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;	/* thin medium thick */ /* na raz dla wszystkich border-width: 5px; */
+	border-rigth-width: 5px;
+	border-top-color: blue;
+	border-bottom-color: red;
+	border-left-color: blue;
+	border-right: yellow;}
+
+	/* ramka na szybko border: width style color */
+
+p.rama {
+border: 10px solid yellow;}
+
+.obrys {
+outline-style: dotted;
+outline-width: medium;
+outline-color: blue; }
